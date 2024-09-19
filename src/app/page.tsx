@@ -3,6 +3,7 @@ import { SOCIALS } from "../data/socials";
 import { SocialLink } from "@/components/social-link";
 import React from "react";
 import { LINKS } from "@/lib/constants";
+import Link from "next/link";
 // import { allBlogs } from "contentlayer/generated";
 // import { BlogCard } from "@/components/blog-card";
 // import Link from "next/link";
@@ -20,10 +21,10 @@ export default function Home() {
       <section className="mb-5">
         <Image
           src="/_static/me.jpg"
-          width={100}
-          height={100}
+          width={250}
+          height={250}
           alt="avatar"
-          className="w-[15em] rounded-full cursor-pointer hover:grayscale mb-5"
+          className="cursor-pointer hover:grayscale mb-5"
           priority
         />
         <h1 className="text-2xl font-bold">Bryan Nonni</h1>
@@ -32,51 +33,51 @@ export default function Home() {
           <p className="mt-4">
             I&apos;m a full stack software engineer specializing in building 
             intuitive web and mobile frontends, scalable and well desinged 
-            API backends and seamless integrations between them. I have a strong 
+            API backends and seamless integrations. I have a strong 
             passion for fintech, decentralized identity and Web5. I&apos;m an 
-            open source contributor and love to contribute to the Web5 community. 
-            
-            I&apos;m currently working on projects with TBD
-            <ul>
-              <li>
-                <a href="https://dpm.software/" target="_blank" className="border-b inline-block">Decentralized Package Manager (DPM)</a>.
-              </li>
-              <li>
-                <a href="https://dpm.software/" target="_blank" className="border-b inline-block">Decentralized Credential Exchange (DCX)</a>.
-              </li>
-            </ul>
+            open source contributor currently focused on the
+            <a href="https://areweweb5yet.com/"> Web5 community.</a>
           </p>
-          <p className="mt-4 mb-4">
+          <p className="my-4">
             Over the years, I&apos;ve worked for startups and large corporations
             building full stack applications, proof-of-concepts, internal tooling,
-            and user-facing web + mobile apps across different verticals domains: retail,
-            restaurant, banking, money services, and mortgage lending. I  actively contribute
-            to various open source projects. Check out my GitHub to see which ones!
-            Most recently, I was building an open source Web5 project intended for use
-            in a decentralized credit lending exchange. My life goal is to build
-            solutions that maximize human freedom and sovereignty, so users can take
-            the control back over their data online.
-            <a
-              href="https://dcxprotocol.com/"
-              target="_blank"
-              className="border-b inline-block"
-            >
-              dcxprotocol.com
-            </a>
-            .
+            and user-facing web + mobile apps across different verticals including: payments, mortgage
+            lending, retail, restaurant, banking, money services and digital marketing.
+            I actively contribute to various open source projects.
           </p>
-
+          <p className="my-4">
+          My main goal for my life and career is to build solutions that maximize human 
+          freedom and individual rights and sovereignty, allow people the ability to take
+          back the control over their online lives: money, identity and data.
+          </p>
+          <p className="my-4">
+            Recently, I've been building two open source Web5 projects:
+            <ol className="mx-16 list-decimal m-auto p-auto">
+              <li className="px-2">
+                <a href="https://dpm.software/" target="_blank" className="border-b inline-block">
+                  Decentralized Package Manager (DPM)
+                </a>
+              </li>
+              <li className="px-2">
+                <a href="https://dcxprotocol.com/" target="_blank" className="border-b inline-block">
+                  Decentralized Credential Exchange (DCX)
+                </a>
+              </li>
+            </ol>
+          </p>
+          <p className="my-4">
+            If you&apos;d like to see more about my projects, please&nbsp;
+            <Link href={"/projects"} className="border-b inline-block">
+                 visit my projects page
+            </Link>
+          </p>
           <p className="mb-4">
             If you&apos;d like to collaborate, please&nbsp;
-            <a
-              href="mailto:portfolio@nonni.dev"
-              className="border-b inline-block"
-            >
+            <a href="mailto:portfolio@nonni.dev" className="border-b inline-block">
               send me an email
             </a>
           </p>
         </div>
-
         <div className="flex space-x-4 mb-2 mt-4">
           {SOCIALS.map((social) => (
             <SocialLink

@@ -1,11 +1,11 @@
 export const WEB_APPS = [
   {
-    title: "DPM",
-    tags: ["Typescript", "Web5", "Decentralized Identity", "DHT"],
+    title: "",
+    tags: ["Typescript", "React", "Redux Toolkit", "Nodejs", "PostgreSQL"],
     description:
-      "",
-    thumbnail: "/_static/projects/dpm.jpg",
-    repo: "https://github.com/bnonni/dpm",
+      "Apply for mentorship to the top mentors recommended by our powerful algorithm based on your profile. Enjoy one-to-one live mentorship in our interactive video streaming labs for free.",
+    thumbnail: "/_static/projects/",
+    repo: "https://github.com/bnonni/",
   },
   {
     title: "",
