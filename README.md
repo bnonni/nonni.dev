@@ -1,4 +1,4 @@
-# adarsha.dev
+# nonni.dev
 
 This is my personal website and blog built using:
 
@@ -12,8 +12,8 @@ This is my personal website and blog built using:
 This application requires Node.js v16.13+.
 
 ```bash
-git clone https://github.com/adarshaacharya/adarsha.dev
-cd adarsha.dev
+git clone https://github.com/bnonni/nonni.dev
+cd nonni.dev
 pnpm install
 pnpm dev
 ```
@@ -26,15 +26,17 @@ If you want to use this project code as your own portfolio , you can go ahead. P
 
 ## Author
 
-- Website: https://adarsha.dev/
-- X: [@adarsha_ach](https://x.com/adarsha_ach)
-- Github: [@adarshaacharya](https://github.com/adarshaacharya)
-- LinkedIn: [@adarshaacharya](https://linkedin.com/in/adarshaacharya)
+- Website: [nonni.dev](https://nonni.dev)
+- X: [@n0nstr](https://x.com/n0nstr)
+- Github: [@bnonni](https://github.com/bnonni)
+- LinkedIn: [@bnonni](https://linkedin.com/in/bnonni)
 
 Give a ⭐️ if you like the project!
 
 ## License
 
-Copyright © 2020 [Adarsha Acharya](https://github.com/adarshaacharya).<br />
+Copyright © 2024 [Bryan Nonni](https://github.com/bnonni).
 
-This project is [MIT](https://github.com/adarshaacharya/adarsha.dev/blob/master/LICENSE) licensed.
+<br />
+
+This project is [MIT](https://github.com/bnonni/nonni.dev/blob/master/LICENSE) licensed.

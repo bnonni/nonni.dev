@@ -1,5 +1,3 @@
-import { SOCIALS } from "@/data/socials";
-import { SocialLink } from "./social-link";
 import { siteMetadata } from "@/data/siteMetadata";
 
 export function Footer() {
@@ -12,7 +10,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Adarsha Acharya.
+          Bryan Nonni.
         </a>
         &nbsp; All rights reserved.
       </p>

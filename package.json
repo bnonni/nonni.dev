@@ -1,7 +1,6 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "name": "nonni.dev",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +9,6 @@
     "format": "prettier --write .",
     "type-check": "tsc --noEmit"
   },
-  "packageManager": "pnpm@8.11.0",
   "dependencies": {
     "@giscus/react": "^2.3.0",
     "@next/third-parties": "^14.2.3",

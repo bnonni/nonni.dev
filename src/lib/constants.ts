@@ -1,4 +1,4 @@
 export const LINKS = {
   RESUME:
-    "https://docs.google.com/document/d/1jVX1D--iSqTOtFp_wR7tGbtvLeZIu9AAiQSf3bc0-fY/edit?usp=sharing",
+    "https://docs.google.com/document/d/1xXt_g7KQsRJzcS18x30DLwJyFIsvG8FP4GK9xg6SSws/edit?usp=sharing",
 };

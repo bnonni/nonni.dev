@@ -1,17 +1,17 @@
 export const siteMetadata = {
-  title: "Adarsha Acharya",
-  author: "Adarsha Acharya",
-  siteUrl: "https://adarsha.dev",
+  title: "Bryan Nonni",
+  author: "Bryan Nonni",
+  siteUrl: "https://nonni.dev",
   socialBanner: "/_static/default-og-card.png",
   description:
-    "Adarsha Acharya - Fullstack developer passionate about creating and sharing things on internet",
+    "Bryan Nonni - Fullstack developer passionate about creating and sharing things on internet",
   keywords: [
-    `Adarsha Acharya, Adarsha, Acharya, adarshaacharya, Aadarsha Acharya, Aadarsha, Acharya, adarsha.dev, adarsha, acharya, aadarsha`,
+    `Bryan Nonni, bryan nonni, Bryan, bryan, Nonni, nonni, Bnonni,  bnonni, BryanNonni, bryannonni, nonni.dev, bryan.nonni.dev`,
   ],
   social: {
-    email: "adarshaofficial@gmail.com",
-    x: "https://x.com/adarsha_ach",
-    linkedinLink: `https://www.linkedin.com/in/adarshaacharya/`,
-    githubLink: `https://github.com/adarshaacharya`,
+    email: "portfolio@nonni.dev",
+    x: "https://x.com/n0nstr",
+    linkedinLink: `https://www.linkedin.com/in/bnonni`,
+    githubLink: `https://github.com/bnonni`,
   },
 };

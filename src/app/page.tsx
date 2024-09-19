@@ -1,19 +1,19 @@
 import Image from "next/image";
 import { SOCIALS } from "../data/socials";
 import { SocialLink } from "@/components/social-link";
-import { allBlogs } from "contentlayer/generated";
-import { BlogCard } from "@/components/blog-card";
 import React from "react";
 import { LINKS } from "@/lib/constants";
-import Link from "next/link";
+// import { allBlogs } from "contentlayer/generated";
+// import { BlogCard } from "@/components/blog-card";
+// import Link from "next/link";
 
 export default function Home() {
-  const blogs = allBlogs.slice(0, 2).sort((a, b) => {
-    if (new Date(a.publishedAt) > new Date(b.publishedAt)) {
-      return -1;
-    }
-    return 1;
-  });
+  // const blogs = allBlogs.slice(0, 2).sort((a, b) => {
+  //   if (new Date(a.publishedAt) > new Date(b.publishedAt)) {
+  //     return -1;
+  //   }
+  //   return 1;
+  // });
 
   return (
     <React.Fragment>
@@ -23,27 +23,45 @@ export default function Home() {
           width={100}
           height={100}
           alt="avatar"
-          className="rounded-full cursor-pointer hover:grayscale mb-5"
+          className="w-[15em] rounded-full cursor-pointer hover:grayscale mb-5"
           priority
         />
-        <h1 className="text-2xl font-bold">Adarsha Acharya</h1>
+        <h1 className="text-2xl font-bold">Bryan Nonni</h1>
 
         <div className="text-gray-700 dark:text-gray-300">
           <p className="mt-4">
-            I’m a fullstack software engineer specializing in building scalable
-            web applications having rich user interface using javascript.
+            I&apos;m a full stack software engineer specializing in building 
+            intuitive web and mobile frontends, scalable and well desinged 
+            API backends and seamless integrations between them. I have a strong 
+            passion for fintech, decentralized identity and Web5. I&apos;m an 
+            open source contributor and love to contribute to the Web5 community. 
+            
+            I&apos;m currently working on projects with TBD
+            <ul>
+              <li>
+                <a href="https://dpm.software/" target="_blank" className="border-b inline-block">Decentralized Package Manager (DPM)</a>.
+              </li>
+              <li>
+                <a href="https://dpm.software/" target="_blank" className="border-b inline-block">Decentralized Credential Exchange (DCX)</a>.
+              </li>
+            </ul>
           </p>
           <p className="mt-4 mb-4">
-            Over the years, I&apos;ve worked on multiple startups to build
-            end-to-end products in insurance, game-tech, and video streaming
-            domains, and have actively contributed to various open source
-            projects. Currently, I&apos;m building iGaming solutions at &nbsp;
+            Over the years, I&apos;ve worked for startups and large corporations
+            building full stack applications, proof-of-concepts, internal tooling,
+            and user-facing web + mobile apps across different verticals domains: retail,
+            restaurant, banking, money services, and mortgage lending. I  actively contribute
+            to various open source projects. Check out my GitHub to see which ones!
+            Most recently, I was building an open source Web5 project intended for use
+            in a decentralized credit lending exchange. My life goal is to build
+            solutions that maximize human freedom and sovereignty, so users can take
+            the control back over their data online.
             <a
-              href="https://mindworks.xyz/"
+              href="https://dcxprotocol.com/"
               target="_blank"
               className="border-b inline-block"
             >
-              mindworks.xyz
+              dcxprotocol.com
             </a>
             .
           </p>
@@ -51,12 +69,11 @@ export default function Home() {
           <p className="mb-4">
             If you&apos;d like to collaborate, please&nbsp;
             <a
-              href="mailto:adarshaofficial@gmail.com"
+              href="mailto:portfolio@nonni.dev"
               className="border-b inline-block"
             >
               send me an email
             </a>
-            &nbsp;or reach out on any of my social handles.
           </p>
         </div>
 
@@ -79,7 +96,7 @@ export default function Home() {
 
       <div className="my-8 w-full border-t border-gray-200 dark:border-gray-800" />
 
-      <div>
+      {/* <div>
         <h2 className="mb-6 text-2xl font-bold">Latest posts</h2>
         <ul>
           {blogs.map((blog) => (
@@ -90,7 +107,7 @@ export default function Home() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 }
