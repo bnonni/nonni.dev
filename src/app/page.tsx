@@ -51,21 +51,6 @@ export default function Home() {
           back the control over their online lives: money, identity and data.
           </p>
           <p className="my-4">
-            Recently, I've been building two open source Web5 projects:
-            <ol className="mx-16 list-decimal m-auto p-auto">
-              <li className="px-2">
-                <a href="https://dpm.software/" target="_blank" className="border-b inline-block">
-                  Decentralized Package Manager (DPM)
-                </a>
-              </li>
-              <li className="px-2">
-                <a href="https://dcxprotocol.com/" target="_blank" className="border-b inline-block">
-                  Decentralized Credential Exchange (DCX)
-                </a>
-              </li>
-            </ol>
-          </p>
-          <p className="my-4">
             If you&apos;d like to see more about my projects, please&nbsp;
             <Link href={"/projects"} className="border-b inline-block">
                  visit my projects page

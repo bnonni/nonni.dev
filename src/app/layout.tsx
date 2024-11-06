@@ -10,7 +10,6 @@ import { siteMetadata } from "@/data/siteMetadata";
 import Head from "./head";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { ENV } from "@/lib/env";
-import { GoogleAdsense } from "@/components/google-adsense";
 
 const space_grotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -72,7 +71,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="mx-4  px-2 md:px-0 lg:mx-auto flex flex-col justify-between min-h-screen">
+          <main className="mx-4 flex min-h-screen flex-col justify-between px-2 md:px-0 lg:mx-auto">
             <Header />
             {children}
             <Footer />
@@ -80,7 +79,6 @@ export default function RootLayout({
           <TailwindIndicator />
         </ThemeProvider>
         <GoogleAnalytics gaId={ENV.GOOGLE_ANALYTICS_ID} />
-        <GoogleAdsense pId={ENV.ADSENSE_CLIENT_ID} />
       </body>
     </html>
   );
