@@ -40,3 +40,4 @@ Copyright © 2024 [Bryan Nonni](https://github.com/bnonni).
 <br />
 
 This project is [MIT](https://github.com/bnonni/nonni.dev/blob/master/LICENSE) licensed.
+This project is a fork of [@adarshaacharya/adarsha.dev](https://github.com/adarshaacharya/adarsha.dev).
