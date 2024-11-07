@@ -20,7 +20,7 @@ export default function Home() {
     <React.Fragment>
       <section className="mb-5">
         <Image
-          src="/_static/me.jpg"
+          src="/_static/nonni-org-profile.jpg"
           width={250}
           height={250}
           alt="avatar"
@@ -36,7 +36,7 @@ export default function Home() {
             API backends and seamless integrations. I have a strong 
             passion for fintech, decentralized identity and Web5. I&apos;m an 
             open source contributor currently focused on the
-            <a href="https://areweweb5yet.com/"> Web5 community.</a>
+            <a href="https://areweweb5yet.com/" className="border-b inline-block" rel="noopener noreferrer"> Web5 community.</a>
           </p>
           <p className="my-4">
             Over the years, I&apos;ve worked for startups and large corporations
@@ -58,7 +58,7 @@ export default function Home() {
           </p>
           <p className="mb-4">
             If you&apos;d like to collaborate, please&nbsp;
-            <a href="mailto:portfolio@nonni.dev" className="border-b inline-block">
+            <a href="mailto:bryan@nonni.work" className="border-b inline-block" rel="noopener noreferrer">
               send me an email
             </a>
           </p>
